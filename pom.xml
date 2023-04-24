@@ -11,8 +11,13 @@
     <groupId>com.wruthless</groupId>
     <artifactId>maven-spring-boot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>maven-spring-boot</name>
     <description>maven-spring-boot</description>
+    <modules>
+        <module>web-app</module>
+        <module>web-model</module>
+    </modules>
     <properties>
         <java.version>17</java.version>
         <some.custom.prop>Foo Bar</some.custom.prop>
